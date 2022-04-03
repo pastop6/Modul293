@@ -1,0 +1,45 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 200px;
+    width: 280px;
+}
+
+.kachel{
+    flex: 1 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    width: 300px;
+    min-height: fit-content;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.list{
+    align-self: flex-start;
+}
+
+.toCart{
+    height: 50px;
+    width: 350px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: 0;
+}
