@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    z-index: 10;
+}
+
+.navcontainer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_item {
+    display: flex;
+    margin: 10px;
+    color: gray;
+    font-size: 70px;
+}
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    margin: 10px;
+    border:1px solid black;
+    border-collapse: collapse;
+    z-index: 9;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    display: block;
+}
+
+#kachelset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 150px;
+    height: 65vh;
+}
+
+.kachel {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    width: 95vw;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.innerkachelset {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.innerkacheltitel {
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.innerkachel {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 20vw;
+    margin: 10px;
+    background-color: rgb(0, 217, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footercontainer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer_element {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    margin: 10px;
+}
