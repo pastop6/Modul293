@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inhalt</title>
+    <link rel="stylesheet" href="Inhalt.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navcontainer">
+            <div class="nav_item">
+                <a class="link" href="#organisation">Organisation</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="#projekt">Projekt</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="#iperka">IPERKA</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="#informationsbeschaffung">Infromationsbeschaffung</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="#planung">Planung</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="#vortrag">Vortrag</a>
+            </div>
+            <div class="nav_item">
+                <a class="link" href="index.html#start">Index</a>
+            </div>
+        </div>
+    </div>
+    <div id="kachelset">
+        <div class="kachel">
+            <div class="titel" id="organisation">
+              <h1>Organisation</h1>
+            </div>
+            <div class="innerkachelset">
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Aufgaben im Lehrbetrieb</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>In meinem Lehrbetrieb führe ich Aufgaben wie Briefe öffnen, Programmiersprachen lernen und Spülmaschine ausräumen aus.</p>
+                     </div>
+                    <table id=aufgaben>
+                        <tr>
+                            <th>Aufgabe</th>
+                            <td>Briefe öffnen</td>
+                        </tr>
+                        <tr>
+                            <th>Informationen</th>
+                            <td>
+                                <ul>
+                                    <li>Wo ist der Briefkasten?</li>
+                                    <li>Wo ist der Schlüssel zum öffnen des Briefkastens?</li>
+                                    <li>Welche Briefe darf ich öffnen, welche nicht?</li>
+                                    <li>Wo hin kommen die geöffneten Briefe?</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Sachmittel</th>
+                            <td>
+                                <ul>
+                                    <li>Schlüssel</li>
+                                    <li>Brieföffner</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Beschreibung</th>
+                            <td>Ein mal Pro Tag muss ich den Briefkasten entleeren, danach geht es ans öffnen der Briefe. 
+                                Falls ein Brief von der Steuerverwaltung ist geht es an die externe Treuhänderin. 
+                                Falls ein Brief eine Rechnung ist, geht es an die Administration. 
+                                Ansonsten werden die Briefe der entsprechenden Person abgegeben, an die es gerichtet wurde.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Aufträge im Lehrbetrieb</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>In meinem Lehrbetrieb führe ich viel mehr Aufgaben als Aufträge aus. Das wird sich aber noch in ein paar Jahren stark verändern, da ich bis dahin viel mehr Kompetenzen und Wissen habe, um Aufträge korrekt auszuführen.</p>
+                     </div>
+                    <table id=aufträge>
+                        <tr>
+                            <th>Auftrag</th>
+                            <td>Dummydaten-Script programmieren</td>
+                        </tr>
+                        <tr>
+                            <th>Informationen</th>
+                            <td>
+                                <ul>
+                                    <li>Was muss dieses Script genau machen?</li>
+                                    <li>In welcher Programmiersprache muss es geschrieben werden?</li>
+                                    <li>Welche Daten müssen erzeugt werden?</li>
+                                    <li>Wie viele Daten müssen erzeugt werden?</li>
+                                    <li>In welchem Format müssen die Daten gespeichert werden?</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Sachmittel</th>
+                            <td>
+                                <ul>
+                                    <li>Computer</li>
+                                    <li>IDE</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Beschreibung</th>
+                            <td>Es wird ein Script gebraucht, das Dummydaten in eine Que im "XML" einspeist. Dabei sollen Datum, ID und Hersteller mitgegeben werden.
+                                Es sollen rund 1'000 Datensätze erstellt werden.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Aufbau und Ablauforganisation</h1>
+                    </div>
+                    <table id=organisation>
+                        <tr>
+                            <th>Name</th>
+                            <th>Ablauforganisation</th>
+                            <th>Aufbauorganisation</th>
+                        </tr>
+                        <tr>
+                            <th>Beschreibung</th>
+                            <td>Die Ablauforg. beschreibt welche Person was womit machen muss. Dazu müssen folgende 4 Elemente beantwortet werden. 
+                                <ul>
+                                    <li>Aufgaben</li>
+                                    <li>Aufgabenträger</li>
+                                    <li>Sachmittel</li>
+                                    <li>Informationen</li>
+                                </ul>
+                            </td>
+                            <td>Die Aufbauorg. ist eine hierarchische Struktur eines Unternehmens. Dabei ist die Hauptfunktion die Aufgabenteilung. Die kann beispielsweise so aussehen:
+                                <ul>
+                                    <li>Geschäftsführung</li>
+                                    <li>Produktion</li>
+                                    <li>Marketing</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Beispiel</th>
+                            <td>Ein Lehrling <b>(Aufgabenträger)</b> soll einen Arbeitsplatz reinigen <b>(Aufgabe)</b>. Das soll er um 16:30 Uhr <b>(Information)</b> mit einem feuchten Lappen <b>(Sachmittel)</b> machen.</td>
+                            <td>Die Unternehmenshierarchie, beispielsweise durch ein Organigramm dargestellt. <a href="Abbildungen.html#organigramm">[Abbildung]</a></td>
+                        </tr>
+                    </table>
+                    <div class="innerkacheltext">
+                        <p>Erfolgreichere Unternehmen haben strengere Angaben und Organisiertere Strukturen, wodurch Projekte besser und organisierter geleitet und durchgeführt werden. Jeder weiss was er zu tun hat und wenn er bei Problemen fragen kann. Ausserdem werden vorhandene Kapazitäten optimal genutzt und dadurch Bearbeitungszeiten gesenkt.</p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Projektantrag</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Prozess Hausaufgaben in der Berufsschule. In der Berufsschule wird der Prozess so simpel wie möglich gehalten, der Lehrer sagt was die Hausaufgaben sind am Ende der Lektion und die müssen dann erledigt werden. Das bedeutet man kann nirgends nachschlagen welche Hausaufgaben noch zu tun sind.</p>
+                    </div>
+                    <table id=projektantrag>
+                        <tr>
+                            <th>Projektantrag</th>
+                            <th>Zentralisierte Hausaufgabenliste</th>
+                        </tr>
+                        <tr>
+                            <th>Ausganslage</th>
+                            <td>Zurzeit werden Hausaufgaben am Ende der Lektion angesagt, wenn jeder schon am zusammenpacken ist und sich nicht mehr auf den Unterricht konzentriert. 
+                                Entweder nimmt man sich die Zeit bei Unterrichtsschluss oder man hat keine Ahnung, was die Hausaufgaben sind.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gestaltungsbereich</th>
+                            <td>Betroffen von diesem Projekt wären die Lehrer, sowie die Lernenden.</td>
+                        </tr>
+                        <tr>
+                            <th>Ziele</th>
+                            <td>
+                                <ul>
+                                    <li>Jederzeit abrufbare Hausaufgaben</li>
+                                    <li>Weniger vergessene Hausaufgaben</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gestaltungsaufgaben</th>
+                            <td>Innerhalb von einem Monat soll ein OneNote erstellt werden, bei dem die Lehrer Ihre Hausaufgaben eintragen können und die Schüler sie jederzeit abrufen können.</td>
+                        </tr>
+                        <tr>
+                            <th>Aufwand</th>
+                            <td>Das Projekt wird innerhalb von 1 Monat fertiggestellt. Zusätzliche Kosten werden keine verursacht. Das einzige was verbraucht wird ist die Zeit das OneNote zu erstellen, und die Zeit zur Einführung für die Lehrer sowie die Schüler.</td>
+                        </tr>
+                        <tr>
+                            <th>Termine</th>
+                            <td>Die Projektdauer ist auf 1 Monat festgelegt. Die Meilensteine sind wie folgt:
+                                <br>
+                                <ul>
+                                    <li>Meilenstein 1: Planung der Berechtigungen</li>
+                                    <li>Meilenstein 2: Erstellung von OneNote</li>
+                                    <li>Meilenstein 3: Einführung der Benutzer</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Begründung der Attraktivität</th>
+                            <td>Durch die Einführung einer Zentralen Hausaufgabenliste, werden die Lernenden stark entlastet, wobei der Lehrer nur einen kleinen Aufwand betreibt, die Hausaufgaben einzutragen. 
+                                Ebenfalls werden dadurch weniger Hausaufgaben vergessen, da die Lernenden jetzt jederzeit wissen was zu tun ist und man können sich eine bessere Zeiteinteilung erstellen.</td>
+                        </tr>
+                        <tr>
+                            <th>Antragsteller</th>
+                            <td>Pascal Tobolik, Lernender</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="kachel">
+            <div class="titel" id="projekt">
+                <h1>Projekt</h1>
+            </div>
+            <div class="innerkachelset">
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Phasenablauf IT-Projekt</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Fünf Aufträge, die ich in meinem Lehrbetrieb ausgeführt habe oder noch ausführen werde sind:</p>
+                    </div>
+                    <table id=it-projekt>
+                        <tr>
+                            <th>Auftrag</th>
+                            <th>Beschreibung</th>
+                            <th>Projektphase</th>
+                        </tr>
+                        <tr>
+                            <td>Dummydaten-Script</td>
+                            <td>Ein Script, welches Dummydaten für ein Performancesystem herstellt, um es unter Hochleistung zu testen.</td>
+                            <td><b>Realisierung</b>, da alle Vorgaben vorhanden waren und die Einführung nicht von mir übernommen wurde.</td>
+                        </tr>
+                        <tr>
+                            <td>AutoScout24 in Django</td>
+                            <td>Ein Nachbau von <a href="https://www.autoscout24.ch/" target="_blank">AutoScout24</a> mithilfe vom <a href="https://www.djangoproject.com/" target="_blank">Django Framework</a> erstellen, um Django näher kennenzulernen.</td>
+                            <td><b>Konzeption</b>, <b>Realisierung</b> und <b>Einführung</b>, da die Initialiserung schon von meinem Lehrmeister durchgeführt wurde, und jetzt das komplette Projekt ausführen werde.</td>
+                        </tr>
+                        <tr>
+                            <td>Testdaten generieren</td>
+                            <td>Datenbank periodisch mit Daten füllen</td>
+                            <td><b>Realisierung</b> und <b>Einführung</b>, da die 2 Vorherigen Phasen von anderen Abteilungen bereits durchgeführt werden.</td>
+                        </tr>
+                        <tr>
+                            <td>REST-API Datenkonzentrator</td>
+                            <td>Erstellen eines Web-GUIs, mitdem der Datenkonzentrator über REST gesteuert werden kann. z.B. Zeit auf einen Stromzähler setzen</td>
+                            <td>Alle 4 Projektphasen, da es das REST-Interface noch nicht gegeben hat und nun die Möglichkeiten geprüft werden, was alles damit gemacht werden kann.</td>
+                        </tr>
+                        <tr>
+                            <td>Neues Authentifizierungsframework</td>
+                            <td>Ein Django-REST Framework (djangorestframework-jwt) wird nicht mehr weiterentwickelt, und braucht dementsprechend einen verbesserten Nachfolger.</td>
+                            <td><b>Initialisierung</b> und <b>Konzeption</b>, Realisierung und Einführung wird durch Mitarbeiter ausgeführt.</td>
+                        </tr>
+                    </table>
+                    <div class="innerkacheltext">
+                        <p>In der dritten Sek. musste jeder Schüler eine Projektarbeit abgeben. Dabei konnte man das Thema selber wählen und schlussendlich eine Projektarbeit inkl. Projektdokumentation abgeben.
+                            Dabei war mein Projekt: Selbstgebaute Lautsprecher. Wichtige Erfahrungen die ich dabei gesammelt habe sind dass die Vorbereitung und Planung entscheident über den ganzen Verlauf des Projekt sind.
+                            Kurz zusammengefasst: Die <b>Vorbereitung</b> und <b>Planung</b> sind die <b>wichtigsten Aspekte</b> eines Projektes, da von ihnen der ganze Projektablauf abhängt.
+                        </p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Das Gantt-Diagramm</h1>
+                    </div>
+                    <img id=gantt src="gantt-diagramm.png" alt="Bild eines Gantt-Diagrammes">
+                    <div class="innerkacheltext">
+                        <a href="Quellen.html#quelle2" id=quelle2>Quelle [2]</a>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Zur erstellung dieses Gantt-Diagrammes habe ich die Website <a href="https://www.canva.com/" target="_blank">canva.com</a> verwendet. Dadurch wurden Aufgaben wie Design und weiteres schon für mich erstellt. Dementsprechend war es auch einfach, so ein Gantt-Diagramm zu erstellen.</p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Projektrollen</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p><b>Kundenprojekt</b><br>
+                        Ein Kunde möchte ein Zeiterfassungstool das für sämtliche Abteilungen in der Firma nutzbar ist. Das Projekt soll innerhalb von 3 Monaten fertiggestellt sein und eingeführt werden.
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <a href="Quellen.html#quelle6" id=quelle6>Quelle [6]</a>
+                    </div>
+                    <table id=projektrollen>
+                        <tr>
+                            <th>Rolle</th>
+                            <th>Aufgaben</th>
+                            <th>Kompetenzen</th>
+                            <th>Verantwortung</th>
+                        </tr>
+                        <tr>
+                            <td>Kunde</td>
+                            <td>
+                                <ul>
+                                    <li>Auftrag erstellen</li>
+                                    <li>Anforderungen nennen</li>
+                                    <li>Bezahlen</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Kontakt mit dem Auftragnehmer</li>
+                                    <li>Geld oder Ware als Ressourcen</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Bei Fragen Kontaktbar sein</li>
+                                    <li>Genaue Antworten liefern</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Projektmanager</td>
+                            <td>
+                                <ul>
+                                    <li>Kontaktaufnahme mit dem Kunden</li>
+                                    <li>Reibungslose kommunikation zwischen Kunde und Entwickler</li>
+                                    <li>Angaben laufend an Mitarbeiter zuweisen</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Guter Kontakt zu Auftraggeber</li>
+                                    <li>Führungsqualitäten</li>
+                                    <li>Zugriff auf Systeme von Kunden</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Bei Fragen kontaktierbar sein</li>
+                                    <li>Kosten im Blick behalten</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lenkungsausschuss</td>
+                            <td>
+                                <ul>
+                                    <li>Sicherung der Qualität des Projektmanagments</li>
+                                    <li>Deeskalation/Lösung von Konflikten</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Gute Menschenkentnisse</li>
+                                    <li>Gute Organisatorische Fähigkeiten</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Reibungslose zusammenarbeit Zwischen Kunde und Projektmanager</li>
+                                    <li>Einschreitung bei Kriesen</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="kachel">
+            <div class="titel" id="iperka">
+                <h1>IPERKA</h1>
+            </div>
+            <div class="innerkachelset">
+
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>IPERKA im Detail</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p><b>Projekt Tischreservierung im Altersheim</b><br>Beschreibung: Es sollen mehrere Touchscreenbildschirme in ein Altersheim vor dem Esssaal installiert werden, worauf die Bewohner einen Tisch um eine bestimmte Uhrzeit reservieren können</p>
+                    </div>
+                    <table id=iperka-det>
+                        <tr>
+                            <th>Schritt</th>
+                            <th>Beispiel</th>
+                        </tr>
+                        <tr>
+                            <td><b>I</b>nformieren</td>
+                            <td>Abchecken, wie viele Tische vorhanden sind, wie viele Bewohner dort leben, wann Essen gekocht wird und wo die Bildschirme montiert werden können.</td>
+                        </tr>
+                        <tr>
+                            <td><b>P</b>lanen</td>
+                            <td>Mehrere Lösungswege planen, falls einer nicht aufgeht. Mit den zur verfügung stehenden Ressourcen und der Zeitvorgabe alles Planen.</td>
+                        </tr>
+                        <tr>
+                            <td><b>E</b>ntscheiden</td>
+                            <td>Entscheiden, welche Hardware verwendet wird, welches Betriebssystem und wie das Interface übersichtlich aufgebaut werden muss.</td>
+                        </tr>
+                        <tr>
+                            <td><b>R</b>ealisieren</td>
+                            <td>Mit dem realisieren beginnen, Script schreiben, Hardware in betrieb nehmen, Datenbanken implementieren etc.</td>
+                        </tr>
+                        <tr>
+                            <td><b>K</b>ontrollieren</td>
+                            <td>Checken ob alles funktioniert wie es soll, ob Fehler auftreten wenn zu viele gleichzeitig reservieren und ob alles für Laien übersichtlich ist.</td>
+                        </tr>
+                        <tr>
+                            <td><b>A</b>uswerten</td>
+                            <td>Das Projekt auswerten, ob alles geklappt hat wie geplant, wo Probleme vorlagen, was länger/kürzen brauchte als geplant und was gut ging.</td>
+                        </tr>
+                    </table>
+                    <div class="innerkacheltext">
+                        <p>Die meisten Probleme und Schwierigkeiten im IPERKA-Modell habe ich bei den Schritten Planen und Entscheiden, da es bei diesen Schritten mehrere Wege gibt, die man einschlagen kann. D.h. dass man meisten die einzelnen 
+                            Optionen auf Komplexität und Nutzen und viel mehr anderen Faktoren abwägen muss. Ein <b>Beispiel</b> dazu ist Planen, wo die Bildschirme installiert werden können, in welche Richtung die Bildschirme zeigen, aus welcher höhe sie sein müssen,
+                            welches Modell in frage kommt, welche Anschlüsse verwendet werden usw...<br>Und das waren alles nur Aspekte der Hardware. Also, alles in allem ist der Schritt planen für mich der Schwierigste, da man so viel beachten muss.
+                        </p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>IPERKA Praxisbeispiel</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Bei diesem Beispiel geht es um die Implementierung einer Softwareanwendung.<br>Dieses Praxisbeispiel erläutert den Kreislauf vom Punkt Informieren bis zum Punkt Auswerten. Dabei sieht man welche Fragen zu welchem Punkt gehören.</p>
+                    </div>
+                    <img id=iperka src="iperka.png" alt="Bild eines IPERKA-Kreislaufs">
+                    <div class="innerkacheltext">
+                        <p><a href="Abbildungen.html#IPERKA">[Grössere Ansicht]</a><br>Wie sich nun herausstellt, eignet sich so ein IPERKA-Modell für kleine, sowie grosse Projekte. Dabei werden Punkte wie die <b>zu unternehmenden Schritte</b>, <b>auszuführenden Tätigkeiten</b> sowie <b>zu beantwortenden Fragen</b> beantwortet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kachel">
+            <div class="titel" id="informationsbeschaffung">
+                <h1>Informationsbeschaffung</h1>
+            </div>
+            <div class="innerkachelset">
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Notizen machen</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Die meisten Notizen mache ich mit "Kurznotizen" und sehe etwa so aus:</p>
+                    </div>
+                    <img id=notizen src="notizen.png" alt="Bild von Notizen">
+                    <div class="innerkacheltext">
+                        <p>Folgende Punkte sollen für gute Notizen befolgt werden:</p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <ul>
+                            <li>Kurze aber prägnante Sätze</li>
+                            <li>Mehrere Farben verwenden</li>
+                            <li>Am Rand Neben den Sätzen 2 Schlüsselbegriffe aufschreiben</li>
+                            <li>Zum Schluss alles in 3-4 Sätzen zusammenfassen</li>
+                            <li>Notizen nachbearbeiten</li>
+                        </ul>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Ich notiere mir so gut wie alles in Stichworten, meist steht dann rechts davon in Klammern ein Beispiel, dass mir beim Verständnis hilft. Ich sollte jedoch mehr Sätze schreiben, da man noch vieles falsch verstehen kann, vor allem wenn man die Notiz vor ein paar Monaten geschrieben hat.</p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Informationen Strukturieren</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Um Informationen strukturiert kann man auf eine Notiz die Schlagwörter, Markierten Texte und weitere Herausschreibungen aufschreiben.
+                            Diese Informationen dann weiter verarbeiten (z.B. bildlich in eine Mindmap inkl. Abbildungen). Dies ist ebenfalls meine bevorzugte Art.
+                        </p>
+                    </div>
+                    <img id=notiz_winkler src="winkler.png" alt="Ein Bild von einer struktirierten Notiz">
+                    <div class="innerkacheltext">
+                        <a href="Abbildungen.html#winkler">[Grössere Ansicht]</a>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Microsoft OneNote</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>OneNote ist eines der bekanntesten und beliebtesten Tools um Informationen strukturieren und abzuspeichern.
+                            Es ermöglicht eine klare Struktur und Ordnung von Notizen mit Hilfe von Notizbüchern, Abschnitten und Seiten. Es wird vor Allem in «grösseren» Organisationen verwendet, also an Orten, wo mehrere Leute ihre Notizen und Dateien an einer gemeinsamen Stelle ablagern und sich gegenseitig zeigen müssen.
+                            Ebensfalls kann man in OneNote die Notizbücher freigeben und Berechtigungen für Nutzer setzen. Aber auch abseits von Organisationen mit mehreren Leuten findet OneNote Verwendung. So kann es auch für persönliche Journale (wie etwa Tagebuch oder Lernjournal) gebraucht werden. 
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <a href="Quellen.html#quelle3" id=quelle3>Quelle [3]</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Vorteile</th>
+                            <th>Nachteile</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Gratis</li>
+                                    <li>Leichte Zusammenarbeit</li>
+                                    <li>Simpel</li>
+                                    <li>Informationen online & offline verfügbar</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Manchmal ein bisschen buggy</li>
+                                    <li>Langsame synchronisation</li>
+                                    <li>Keine Sortierfunktion der Notes anhand von Datum, Namen, Format etc.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Microsoft To Do</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>To Do ist eine App, in der man verschiedene Listen erstellen und bennenen kann. Innerhalb von diesen Listen (z.B. Hausaufgaben) können dann sogenannte "Tasks" (z.B. Englisch) erstellt werden, in denen Schritte, sowie Zuweisungen und Fälligkeitsdaten.
+                            Man kann auch mehrere Gruppen erstellen, um alles noch organisierter zu gestalten.
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <a href="Quellen.html#quelle4" id=quelle4>Quelle [4]</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Vorteile</th>
+                            <th>Nachteile</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Kostenlos</li>
+                                    <li>Auf Mac, Windows, Webbrower und Handy verfügbar</li>
+                                    <li>Sehr einfache Nutzung</li>
+                                    <li>Dank Gruppen sehr übersichtlich</li>
+                                    <li>Mit Outlook kombinierbar</li>
+                                    <li>Man kann zu Tasks einzelne Schritte hinzufügen</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Keine Möglichkeit Aufgaben für den Microsoft-Planer zu erstellen</li>
+                                    <li>Mein Tag zeigt nur manuell hinzugefügte Tasks an / wäre schön, wenn auch Tasks mit Start– oder Fälligkeitsdatum angezeigt werden würden </li>
+                                    <li>Mein Tag zeigt nur manuell hinzugefügte Tasks an / wäre schön, wenn auch Tasks mit Start– oder Fälligkeitsdatum angezeigt werden würden </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="kachel">
+            <div class="titel" id="planung">
+                <h1>Planung</h1>
+            </div>
+            <div class="innerkachelset">
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Eigene Planung</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Bisher habe ich mir noch nie wirklich eine richtige Tagesplanung erstellt, weil ich schon eine routine von Montag bis Sonntag habe. Die einzigen Tage an denen ich eine grobe Tagesplanung mache, ist an denen ich micht Freunden etwas unternehme. Dann mach ich mir einen groben Plan im Kopf. </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Meine Planung vom Donnerstag, dem 19.05.2022</p>
+                    </div>
+                    <table id=eig-plan>
+                        <tr>
+                            <th>Akronym</th>
+                            <th>Tätigkeiten</th>
+                        </tr>
+                        <tr>
+                            <td><b>A</b>ufgaben</td>
+                            <td>Aufgaben die ich für den heutigen Tag geplant habe:<br>
+                            <ul>
+                                <li>Aufstehen, Zähneputzen etc.</li>
+                                <li>Arbeiten</li>
+                                <li>Fahrtweg</li>
+                                <li>Fitness</li>
+                                <li>Lernen</li>
+                                <li>Schlafen</li>
+                            </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>L</b>änge</td>
+                            <td>Die Länge schätzen, die man für die Tätigkeiten braucht:
+                                <ul>
+                                    <li>Aufstehen: 0.75h</li>
+                                    <li>Arbeiten: 8.5h</li>
+                                    <li>Fahrtweg: 1.5h</li>
+                                    <li>Fitness: 1h</li>
+                                    <li>Lernen: 1h</li>
+                                    <li>Schlafen: 8.5h</li>
+                                </ul>
+                                Total: 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>P</b>uffer</td>
+                            <td>Einen Zeitpuffer für nicht fixe Tätigkeiten einplanen:
+                                <ul>
+                                    <li>Aufstehen: 1.05h</li>
+                                    <li>Arbeiten: 8.5h (fix)</li>
+                                    <li>Fahrtweg: 1.5h (fix)</li>
+                                    <li>Fitness: 1.4h</li>
+                                    <li>Lernen: 1.4h</li>
+                                    <li>Schlafen: 11.9h</li>
+                                </ul>
+                                Total: 25.75 Stunden
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>E</b>entscheiden</td>
+                            <td>Nun braucht mein plan mehr Zeit als an einem Tag, deshalb werden 2 Tätigkeiten gekürzt.
+                                <ul>
+                                    <li>Schlafen: 9h</li>
+                                    <li>Lernen: 0.75h</li>
+                                </ul>
+                                Total: 22.2 Stunden
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>N</b>achkontrolle</td>
+                            <td>Die Nachkontrolle ist dazu da, um zu checken was wie geplant (nicht) funktioniert hat.
+                                In meinem Falle ging alles grob klar, es gab ab und an kleine Tätigkeiten die dazu gekommen sind und welche die nicht so lange gebraucht haben wie geplant. z.B. Habe ich noch das Essen im Plan vergessen.
+                                Desshalb empfehle ich so eine genaue Tagesplanung für Ferien etc. und nicht immer fast gleich bleibende Tage. Für meine Arbeitstage benutze ich den Outlook Kalenden.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Reflexion Arbeitsplanung</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>In meinem Betrieb läuft meine Arbeitsplanung so ab: In meinem Outlook Kalender sind alle Termine, von denen ich weiss dass sie gemacht werden müssen notiert. Ein Beispiel dazu ist das Briefe öffnen, welches ich jeden Tag von 13:00 Uhr bis 13:30 Uhr eingetragen habe.
+                            Die Kalender sind im Netzwerk geteilt und können somit von allen Mitarbeitern gesehen werden. Dadurch ist ersichtlich, wer wann Zeit hat.
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>
+                            Für Freizeitaktivitäten oder Termine wie Physiotherapie benutze ich die Kalender App von Samsung.
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>
+                            Bei meiner Arbeitsplanung gelingen mir die meisten Schritte, wie Pufferzeit einplanen oder allgemein alle Termine erfassen, die zu tun sind. Wo noch Optimierungsbedarf ist,
+                            ist bei mir die priorisierung der einzelnen Aufgaben. Vorallem dann, wenn sehr viele Aufgaben und Aufträge auf einen Schlag kommen und ich somit alles erst einmal priorisierung und eintragen muss.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kachel">
+            <div class="titel" id="vortrag">
+                <h1>Vortrag</h1>
+            </div>
+            <div class="innerkachelset">
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Checkliste Präsentation</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Eine Präsentation, so gross oder klein wie sie sein mag, kann man immer in 3 Teile unterteilen: Die <b>Vorbereitung</b>, <b>Durchführung</b> und der <b>Schluss</b>. Dabei sollen die jeweiligen Punkte beachtet werden.</p>
+                    </div>
+                    <table id=checklist>
+                        <tr>
+                            <th>Vorbereitung</th>
+                            <th>Durchführung</th>
+                            <th>Beenden</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Klare Ziele setzen</li>
+                                    <li>Sich fragen, was man Präsentieren möchte</li>
+                                    <li>Sich fragen, was das Publikum lernen/erfahren soll</li>
+                                    <li>SSind Bilder/Stichworte selbsterklärend?</li>
+                                    <li>Checken, wie die Infrastruktur vor Ort ist</li>
+                                    <li>üben, üben, üben</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Öfters Blickkontakt mit Publikum</li>
+                                    <li>Frei sprechen/Nicht ablesen</li>
+                                    <li>Laut und deutlich reden</li>
+                                    <li>Selbstbewusst auftreten</li>
+                                    <li>Mit Körpersprache arbeiten</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Klares Ende setzen</li>
+                                    <li>Nach Fragen fragen</li>
+                                    <li>Fragen wiederholen, dann beantworten</li>
+                                    <li>Fragen welche nicht beantwortet werden konnten, später beantworten</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="innerkacheltext">
+                        <p>Bei meinen bisherigen Präsentationen habe ich folgende Punkte am meisten berücksichtigt:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Notizen machen</li>
+                            <li>Stichwörter und Bilder auf Präsentation</li>
+                            <li>Nach Fragen fragen</li>
+                        </ul>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Und folgende Punkte habe ich bisher noch nicht gut berücksichtigt:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Klare Ziele setzen</li>
+                            <li>Öfters Blickkontakt</li>
+                            <li>Infrastruktur davor auschecken</li>
+                            <li>üben, üben, üben</li>
+                        </ul>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Auf die Punkte <b>Infrastruktur auschecken</b> und <b>mehr Körpersprache</b> möchte ich für meine zukünftigen Präsentationen mehr achten, da diese ein paar der ausschlaggebenden Punkte für eine gute Präsentation sind.</p>
+                    </div>
+                </div>
+                <div class="innerkachel">
+                    <div class="innerkacheltitel">
+                        <h1>Reflexion Präsentation</h1>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Der Vortrag ging von meiner Sicht aus sehr gut, ich habe für meine Verhältnisse sehr laut geredet und mich gut vorbereitet.
+                            Jedoch gab es auch ein paar Kritikpunkte, welche mir während dem Präsentieren nich aufgefallen sind, z.B. es gab <b>wenig Kontakt zum Publikum</b> und es wurde
+                            viel auf die <b>Leinwand geschaut</b>.
+                        </p>
+                    </div>
+                    <div class="innerkacheltext">
+                        <p>Diese Technik habe ich schon mehrmals im Betrieb angewendet und war dementsprechend mit dem Prozedere vertraut. Sie bietet meist ein solides Grundgerüst für die Themen
+                            Deshalb werde ich diese Technik weiterhin bei fast allen Präsentationen verwenden, mit der Ausnahme von sehr wichtigen Präsentationen, um ein noch besseres Auftreten und Ausführen zu gewährleisten. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="footer_element">
+                <p>Pascal Tobolik</p>
+            </div>
+            <div class="footer_element">
+                <p>Version 1.2 06.06.2022</p>
+            </div>
+            <div class="footer_element">
+                <p>Freigegeben</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
